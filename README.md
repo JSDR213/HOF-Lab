@@ -1,15 +1,19 @@
-function printNums(pNums) {
+## JSDR 213
+
+### HOF Lab
+
+For each prompt, create an array and run the Higher Order Function to perform the task
+
+function printNums() {
   /**
    *  Using .forEach, add each number in the nums array to a new array.
    * @param nums => [1,2,3,4]
    */
 }
 
-function returnSums(rSums) {
+const getSquares = () => {
   /**
-   * Using forEach, push the sum of n plus the index
-   * to a new array and return the new array
-   * @param nums => [1,2,3,4,5]
+   * Use .map to return an array of all nums multiplied by 2
    */
 }
 
@@ -68,11 +72,7 @@ function sortObjectsByValue(sObjs) {
 
 
 
-const getSquares = (arr) => {
-  /**
-   * Use .map to return an array of all nums multiplied by 2
-   */
-}
+
 
 const isDivBy3 = (arr) => {
   /**
