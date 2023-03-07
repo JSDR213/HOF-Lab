@@ -14,6 +14,7 @@ function printNums() {
    *  Using .forEach, add 10 to each number in the nums array
     nums => [1,2,3,4]
    */
+   
 }
 
 
@@ -24,6 +25,7 @@ const getSquares = () => {
    * Use .map to return an array of all nums brought the 2nd power
    * nums => [1,2,3,4,5,6]
    */
+   
 }
 
 
@@ -34,11 +36,12 @@ function printMoney() {
   /**
    * Using .map, return an array of decimals formatted as dollars.
    * EX: {
-   * input: [12.34, 9.99],
-   * output: ['$12.34', '$9.99']
+   * input: [12.34, 9.99, 3.14159, 4.234, 5.50],
+   * output: ['$12.34', '$9.99', '$3.14', '$4.23'...]
    * }
    * Hint: Not all decimals have two places, make sure to return each decimal with the proper decimal places. .toFixed may be useful :)
    */
+   
 }
 
 
