@@ -2,13 +2,17 @@
 
 ### HOF Lab
 
-#### 1)
+
 For each prompt, create an array and run the Higher Order Function to perform the task
+
+
+#### 1)
+
 
 function printNums() {
   /**
-   *  Using .forEach, add each number in the nums array to a new array.
-   * @param nums => [1,2,3,4]
+   *  Using .forEach, add 10 to each number in the nums array
+    nums => [1,2,3,4]
    */
 }
 
@@ -17,13 +21,13 @@ function printNums() {
 
 const getSquares = () => {
   /**
-   * Use .map to return an array of all nums multiplied by 2
+   * Use .map to return an array of all nums brought the 2nd power
+   * nums => [1,2,3,4,5,6]
    */
 }
 
 
 #### 3)
-
 
 
 function printMoney() {
@@ -59,33 +63,15 @@ function returnAllTrueValues() {
 
 
 #### 6)
-function joinStrings(strings) {
+function joinStrings() {
   /**
-   * @param strings => ['l', 'o', 'v', 'e']
+   strings => ['d', 'i', 'n', 'o', 's', 'a', 'u', 'r']
    * Using .reduce, return a new string containing each string from the strings array.
    */
 }
 
 
 #### 7)
-
-const filterOdds = () => {
-  /**
-   * Use .filter to return an array of all odd numbers
-   * * The modulus % operator may be useful *
-   */
-}
-
-
-#### 8)
-const filterEvens = () => {
-  /**
-   * Use .filter to return all even numbers
-   * * The modulus % operator may be useful *
-   */
-}
-
-#### 9 )
 
 const findTotalCost = () => {
   /**
